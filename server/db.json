@@ -1,0 +1,25 @@
+﻿{
+  "bookstores": [
+    { "id": 1, "name": "Barnes & Noble Fantasy", "specialty": "fantasy", "minimumCopies": 10 },
+    { "id": 2, "name": "Barnes & Noble Science Fiction", "specialty": "science_fiction", "minimumCopies": 8 },
+    { "id": 3, "name": "Barnes & Noble History", "specialty": "history", "minimumCopies": 6 },
+    { "id": 4, "name": "Barnes & Noble Mystery", "specialty": "mystery", "minimumCopies": 5 },
+    { "id": 5, "name": "Barnes & Noble Romance", "specialty": "romance", "minimumCopies": 7 },
+    { "id": 6, "name": "Barnes & Noble Science", "specialty": "science", "minimumCopies": 4 }
+  ],
+  "book-stocks": [
+    { "id": 1, "bookstoreId": 1, "bookKey": "/works/TEST-FANTASY-001", "bookTitle": "The Silver Kingdom", "authorName": "Elena Rivers", "copies": 6, "receivedAt": "2026-10-12T09:00:00-05:00" },
+    { "id": 2, "bookstoreId": 1, "bookKey": "/works/TEST-FANTASY-001", "bookTitle": "The Silver Kingdom", "authorName": "Elena Rivers", "copies": 5, "receivedAt": "2026-10-12T10:00:00-05:00" },
+    { "id": 3, "bookstoreId": 1, "bookKey": "/works/TEST-FANTASY-002", "bookTitle": "The Last Dragon", "authorName": "Unknown Author", "copies": 4, "receivedAt": "2026-10-12T11:00:00-05:00" },
+    { "id": 4, "bookstoreId": 2, "bookKey": "/works/TEST-SCIFI-001", "bookTitle": "Beyond the Red Planet", "authorName": "Daniel Morgan", "copies": 3, "receivedAt": "2026-10-12T09:10:00-05:00" },
+    { "id": 5, "bookstoreId": 2, "bookKey": "/works/TEST-SCIFI-001", "bookTitle": "Beyond the Red Planet", "authorName": "Daniel Morgan", "copies": 5, "receivedAt": "2026-10-12T10:10:00-05:00" },
+    { "id": 6, "bookstoreId": 2, "bookKey": "/works/TEST-SCIFI-002", "bookTitle": "The Orbital Archive", "authorName": "Maya Stone", "copies": 2, "receivedAt": "2026-10-12T11:10:00-05:00" },
+    { "id": 7, "bookstoreId": 3, "bookKey": "/works/TEST-HISTORY-001", "bookTitle": "Cities of the Ancient World", "authorName": "Samuel Reed", "copies": 7, "receivedAt": "2026-10-12T09:20:00-05:00" },
+    { "id": 8, "bookstoreId": 3, "bookKey": "/works/TEST-HISTORY-002", "bookTitle": "A Journey Through History", "authorName": "Nora Bennett", "copies": 3, "receivedAt": "2026-10-12T10:20:00-05:00" },
+    { "id": 9, "bookstoreId": 4, "bookKey": "/works/TEST-MYSTERY-001", "bookTitle": "The Silent Witness", "authorName": "Clara Hayes", "copies": 2, "receivedAt": "2026-10-12T09:30:00-05:00" },
+    { "id": 10, "bookstoreId": 4, "bookKey": "/works/TEST-MYSTERY-001", "bookTitle": "The Silent Witness", "authorName": "Clara Hayes", "copies": 2, "receivedAt": "2026-10-12T10:30:00-05:00" },
+    { "id": 11, "bookstoreId": 4, "bookKey": "/works/TEST-MYSTERY-002", "bookTitle": "The Midnight Letter", "authorName": "Oliver Brooks", "copies": 10, "receivedAt": "2026-10-12T11:30:00-05:00" },
+    { "id": 12, "bookstoreId": 5, "bookKey": "/works/TEST-ROMANCE-001", "bookTitle": "Letters by the Sea", "authorName": "Sofia Lane", "copies": 7, "receivedAt": "2026-10-12T09:40:00-05:00" },
+    { "id": 13, "bookstoreId": 5, "bookKey": "/works/TEST-ROMANCE-002", "bookTitle": "An Autumn Promise", "authorName": "Isabel Hart", "copies": 1, "receivedAt": "2026-10-12T10:40:00-05:00" }
+  ]
+}
